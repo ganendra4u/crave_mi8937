@@ -4,7 +4,7 @@ rm -rf .repo/local_manifests/
 
 repo init -u https://github.com/AviumUI/android_manifests -b avium-16.2 --git-lfs --depth=1
 
-git clone https://github.com/ganendra4u/local_manifest_mi8937.git .repo/local_manifests -b main
+git clone https://github.com/ganendra4u/local_manifest_mi8937.git .repo/local_manifests -b main --depth=1
 
 /opt/crave/resync.sh
 
