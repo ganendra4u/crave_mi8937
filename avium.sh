@@ -7,7 +7,7 @@ repo init -u https://github.com/AviumUI/android_manifests -b avium-16.2 --git-lf
 mkdir -p .repo/local_manifests
 curl -L -o .repo/local_manifests/lineage-23.2.xml https://raw.githubusercontent.com/Rve27/local_manifests/master/lineage-23.2.xml
 
-/opt/crave/resync.sh
+repo sync
 
 export BUILD_USERNAME=Ganendra1945
 export BUILD_HOSTNAME=crave
